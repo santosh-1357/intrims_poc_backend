@@ -1,0 +1,10 @@
+
+# PostgresSQL Connection
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/intrims_2
+    username: postgres
+    password: root
